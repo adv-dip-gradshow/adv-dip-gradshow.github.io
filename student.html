@@ -34,11 +34,14 @@
 
   <body class="flex min-h-dvh flex-col justify-between">
     <!--TITLE BAR-->
-    <header class="bg-black h-40">
-      <img class="max-h-full mx-auto" src="assets/images/graphics/NXTPhasePattern_Stroke.png" alt="">
-      <a href="index.html" class="absolute top-5 left-5"
-        ><i class="fa-solid fa-arrow-left text-white text-lg"></i>
-      </a>
+    <header>
+      <div class="bg-black h-40">
+        <img class="max-h-full mx-auto" src="assets/images/graphics/NXTPhasePattern_Stroke.png" alt="">
+        <a href="index.html" class="absolute top-5 left-5"
+          ><i class="fa-solid fa-arrow-left text-white text-lg"></i>
+        </a>
+      </div>
+      <div class="h-10 bg-[url(/assets/images/graphics/bg_halftone.png)] bg-repeat-x bg-center min-h-10"></div>
     </header>
 
     <main id="pageMain" class="mx-auto w-full min-h-svh bg-[url(/assets/images/graphics/NXTPhasePattern_PNG2.png)] bg-repeat"></main>
@@ -56,7 +59,9 @@
     </div>
     <br />
         <footer class="static inset-x-0 bottom-0 h-30 bg-black">
-            <section></section>
+            <section class="py-4">
+                <p class="text-white text-center"><a class="underline" href="index.html">Home</a> | Web design by Eliot Barton. Graphics by KyosArtworks. All content property of the respective artist.</p>
+            </section>
         </footer>
   </body>
   <script type="module" src="assets/js/utils/studentPage.js"></script>
