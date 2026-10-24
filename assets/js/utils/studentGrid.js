@@ -15,11 +15,14 @@ export async function buildStudentGrid() {
     for (let id = 0; id < Object.keys(studentsData).length; id++) {
         // for every student, run StudentGridTemplate()
         const student = studentsData[id];
-        console.log(student.name + "'s ID is " + id);
+        try {console.log(student.name + "'s ID is " + id);
 
-        // and append them to the studentGrid element
-        const studentProfile = StudentGridTemplate(student, id);
-        studentGridContent = studentGridContent + studentProfile;
+            // and append them to the studentGrid element
+            const studentProfile = StudentGridTemplate(student, id);
+            studentGridContent = studentGridContent + studentProfile;}
+        catch {
+            console.log("No student associated with ID " + id);
+        }
     }
 
     studentGrid.innerHTML = studentGridContent;

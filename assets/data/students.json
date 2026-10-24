@@ -29,7 +29,7 @@
     },
     "4": {
         "name": "Darcy",
-        "speciality": "3D generalist/Enviroment",
+        "speciality": "3D Generalist/Environment Artist",
         "artistStatement": "I am a 3D Generalist with an interest in environment design and storyboarding for animation and games. I enjoy creating environments and visual stories while developing my skills across different areas of 3D and expanding my creative abilities.",
         "link": "https://linktr.ee/B.darcy",
         "showreel": ""
@@ -37,16 +37,16 @@
     "5": {
         "name": "Douglas Gould",
         "speciality": "3D Modeller/Animator",
-        "artistStatement": "I'm a hard-working and enthusiastic 3D modeller with a flair for creating visually engaging creature and character models. I’m especially passionate about bringing ideas to life through the mediums of animation and tabletop gaming miniatures. I also have 3+ years of experience in 3D printing, miniature painting and concept development.",
+        "artistStatement": "I'm a hard-working and enthusiastic 3D modeller with a flair for creating visually engaging creature and character models. I'm especially passionate about bringing ideas to life through the mediums of animation and tabletop gaming miniatures. I also have 3+ years of experience in 3D printing, miniature painting and concept development.",
         "link": "https://linktr.ee/MakingSomethingUp",
         "showreel": ""
     },
     "6": {
         "name": "Nic Parker",
         "speciality": "Storyboard Artist/2D Animator",
-        "artistStatement": "",
+        "artistStatement": "I'm a storyboard artist and comic creator who enjoys building character-centric worlds and stories, and I particularly enjoy settings where technology and magic mix, like Arcane (Netflix), Witch Hat Atelier (Shirahama Kamome), and Eberron (Dungeons & Dragons). My skills largely lie in character drawing, concept art, and visual storytelling, but I am also a competent 3D artist and have a fundamental understanding of multiple programming languages and game engines.",
         "link": "https://linktr.ee/phoenixprker",
-        "showreel": ""
+        "showreel": "https://www.youtube.com/embed/x5i2xdboUr4?si=r9A9y1GSCAEWzitl"
     },
     "7": {
         "name": "Felicity Smith",
@@ -102,13 +102,6 @@
         "speciality": "3D Artist/Game/Designer",
         "artistStatement": "My word typically focuses around hard surface modelling, rigging and animation. I enjoy designing models and game mecahnics that interact with eachother in complex ways. I also think a pillar of good game design is readable, stylised and functional UI and strive to achieve this in my game projects. I work best when collaborating with other people and recieve timely feedback on my work.",
         "link": "https://linktr.ee/speedweed88",
-        "showreel": ""
-    },
-    "15": {
-        "name": "Megan",
-        "speciality": "",
-        "artistStatement": "",
-        "link": "https://linktr.ee/Sm4rt_Bear",
         "showreel": ""
     },
     "16": {
