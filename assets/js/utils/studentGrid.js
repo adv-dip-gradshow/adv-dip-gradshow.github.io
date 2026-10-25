@@ -9,10 +9,11 @@ async function getStudentsData() {
 export async function buildStudentGrid() {
     const studentGrid = document.getElementById("studentGrid");
     const studentsData = await getStudentsData();
+    const finalID = 23;
     let studentGridContent = "";
 
     // iterate through student data
-    for (let id = 0; id < Object.keys(studentsData).length; id++) {
+    for (let id = 0; id < finalID+1; id++) {
         // for every student, run StudentGridTemplate()
         const student = studentsData[id];
         try {console.log(student.name + "'s ID is " + id);
