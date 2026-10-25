@@ -1,7 +1,7 @@
 import { StudentTemplate } from "../templates/StudentTemplate.js";
 
 async function getStudentData(id) {
-    const response = await fetch(`/assets/data/students.json`);
+    const response = await fetch(`./assets/data/students.json`);
     const students = await response.json();
     return students[id];
 }
