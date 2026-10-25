@@ -1,7 +1,7 @@
 import { StudentGridTemplate } from "../templates/StudentGridTemplate.js";
 
 async function getStudentsData() {
-    const response = await fetch(`/assets/data/students.json`);
+    const response = await fetch(`./assets/data/students.json`);
     const students = await response.json();
     return students;
 }
